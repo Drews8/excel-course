@@ -1,7 +1,12 @@
 {
+  "env": {
+    "browser": true
+  },
   "extends": "airbnb-base",
   "rules": {
-  "linebreak-style": ["error", "windows"],
-  "no-console": "off"
+    "linebreak-style": ["error", "windows"],
+    "no-console": "off",
+    "import/no-unresolved": "off",
+    "class-methods-use-this": "off"
   }
 }
